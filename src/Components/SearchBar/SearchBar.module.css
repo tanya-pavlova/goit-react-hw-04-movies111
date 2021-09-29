@@ -1,0 +1,100 @@
+.Searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  background-color: rgb(148, 68, 68);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #2a363b;
+}
+
+.searchInput {
+  margin-right: 16px;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 520px;
+  font-size: 18px;
+}
+
+.searchInput:focus {
+  border: 2px solid rgb(104, 102, 102);
+}
+
+.searchBtn {
+  position: relative;
+  display: inline-block;
+
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.5) 1px 1px,
+    rgba(100, 100, 100, 0.3) 3px 7px 3px;
+  user-select: none;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0) 90%,
+      rgba(255, 255, 255, 0.3)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    );
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 10px 10px -10px;
+}
+
+.searchBtn:hover {
+  transition: 0.5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}

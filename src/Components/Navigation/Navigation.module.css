@@ -1,0 +1,22 @@
+.navList {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #2a363b;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2a363b;
+  font-size: 18px;
+}
+
+.activeLink {
+  color: #ca2828;
+}

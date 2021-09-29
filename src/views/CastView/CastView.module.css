@@ -1,0 +1,73 @@
+.castList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.thumb {
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+  list-style: none;
+}
+
+.defaultImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 383px;
+}
+
+.actorImg {
+  width: 100%;
+}
+
+.actor {
+  width: 295px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0) 90%,
+      rgba(255, 255, 255, 0.3)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    );
+}

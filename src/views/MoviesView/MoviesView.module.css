@@ -1,0 +1,10 @@
+.moviList {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(148, 68, 68);
+}
+
+.moviList:visited {
+  color: rgb(194, 138, 138);
+}

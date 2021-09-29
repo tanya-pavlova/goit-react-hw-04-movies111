@@ -1,0 +1,12 @@
+.textBold {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.reviewList {
+  padding-left: 0px;
+}
