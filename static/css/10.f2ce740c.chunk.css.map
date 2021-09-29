@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/views/Review/Review.module.css"],"names":[],"mappings":"AAAA,wBACI,cAAe,CACf,eACJ,CAEA,oBACI,cACJ,CAEA,0BACI,cACJ","file":"10.f2ce740c.chunk.css","sourcesContent":[".textBold {\r\n    font-size: 20px;\r\n    font-weight: 600;\r\n}\r\n\r\n.text {\r\n    font-size: 20px;\r\n}\r\n\r\n.reviewList {\r\n    padding-left: 0px;\r\n}"]}
